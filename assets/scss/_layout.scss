@@ -1,0 +1,13 @@
+.site-wrapper {
+	text-align: left;
+	margin: 0 15px;
+	max-width: 100%;
+	@include breakpoint( md ){
+		margin: 0 auto;
+	}
+	.page &,
+	.single & {
+		max-width: 980px;
+	}
+
+}

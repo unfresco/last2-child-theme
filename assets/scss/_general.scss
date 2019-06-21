@@ -1,0 +1,61 @@
+$color_primary: #f28b00;
+$color_secondary: #F08513;
+
+$font_main: 'Arial', sans-serif;
+$font_main_narrow: 'Open Sans Condensed', 'Arial-Narrow', sans-serif;
+$font_display: 'Dosis', sans-serif;
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.site-wrapper,
+.home .site-wrapper {
+	text-align: left;
+}
+
+.no-gutter {
+    margin-left: 0;
+    margin-right: 0;    
+}
+
+.no-gutter > [class^="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.pagination {
+	padding: 2em;
+	text-align: center;
+	
+	.nav-links {
+		border-top: 1px solid #888;
+		.page-numbers {
+			display: inline-block;
+			padding: 0.3em;
+		}
+	}
+}
